@@ -51,8 +51,7 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      We take pride in creating the best possible software.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
@@ -81,17 +80,6 @@ class Hero extends React.Component {
                           on Github
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
                     </div>
                   </Col>
                 </Row>
