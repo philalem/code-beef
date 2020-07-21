@@ -15,10 +15,12 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-
+import CardsFooter from "components/Footers/CardsFooter.js";
+// core components
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import React from "react";
 // reactstrap components
 import {
   Badge,
@@ -26,22 +28,15 @@ import {
   Card,
   CardBody,
   CardImg,
+  Col,
+  Container,
   FormGroup,
   Input,
+  InputGroup,
   InputGroupAddon,
   InputGroupText,
-  InputGroup,
-  Container,
   Row,
-  Col,
 } from "reactstrap";
-
-// core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
-
-// index page sections
-import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
