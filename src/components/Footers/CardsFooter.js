@@ -30,14 +30,7 @@ class CardsFooter extends React.Component {
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
-                  © {new Date().getFullYear()}{" "}
-                  <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
-                    target="_blank"
-                  >
-                    Codebeef
-                  </a>
-                  .
+                  © {new Date().getFullYear()} Codebeef. All rights reserved.
                 </div>
               </Col>
               <Col md="6">
